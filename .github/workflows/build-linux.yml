@@ -22,18 +22,24 @@ env:
 
 permissions: write-all
 
-jobs:         
+jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Run Linux commands
-        run: |
-          echo "Building on Linux"
-          ls -la
-          make 
+    steps:        
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run Linux commands
+      run: |
+        echo "Building on Linux"
+        ls -la
+        make 
 
+    - name: Show Github infos
+      run:  echo 'Workspace path ${{ github.workspace }} - runner.temp ${{ runner.temp }}'     
+
+    - name: dir
+      run:  dir ${{ github.workspace }}
+      
     - name: Upload Release
       uses: softprops/action-gh-release@v2
       with:
