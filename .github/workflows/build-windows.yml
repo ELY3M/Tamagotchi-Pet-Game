@@ -23,7 +23,7 @@ env:
 permissions: write-all
 
 jobs:
-  build-windows:
+  build:
     runs-on: windows-latest
 
     steps:
@@ -73,27 +73,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }} 
         
-jobs:         
-  build-linux:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Run Linux commands
-        run: |
-          echo "Building on Linux"
-          ls -la
-          make 
-
-    - name: Upload Release
-      uses: softprops/action-gh-release@v2
-      with:
-        draft: false
-        prerelease: false    
-        tag_name: ${{ github.run_number }}
-        body: ${{ github.event.head_commit.message }}
-        files: ${{ github.workspace }}\Tamagotchi-Pet-Game-console
-      env:
-        GITHUB_TOKEN: ${{ github.token }} 
         
         
