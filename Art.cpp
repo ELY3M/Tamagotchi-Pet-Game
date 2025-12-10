@@ -6,6 +6,28 @@ void Art::drawMenu(){
   cout << endl << endl;
   cout << "Welcome to Play Land, your pets await you!" << endl;
   cout << "-------------------------------------------------------------------------------------------------------------------------------------------------------------"<< endl <<  endl;
+  cout << "Alien:" <<  endl;   
+  cout << "         @@@@@@@@@@" << endl;
+  cout << "      @@@          @@@" << endl;
+  cout << "   @@                  @@" << endl;
+  cout << " @@                      @@" << endl;
+  cout << " @@    @@@        @@@    @@" << endl;
+  cout << " @@    @@@@@    @@@@@    @@" << endl;
+  cout << " @@    @@@@@    @@@@@    @@" << endl;
+  cout << " @@     @@@@    @@@@     @@" << endl;
+  cout << "   @@                  @@" << endl;
+  cout << "     @@     @@@@     @@" << endl;
+  cout << "       @@          @@" << endl;
+  cout << "         @@      @@" << endl;
+  cout << "           @@@@@@" << endl << endl;
+  cout << "Mouse:" <<  endl;  
+  cout << "      (,\\_/ ,)" << endl;
+  cout << "       | \" |   .-'" << endl;
+  cout << "       )\\g/(  (" << endl;  
+  cout << "      /(   )\\  )" << endl; 
+  cout << "     |\\)   (/|/" << endl;  
+  cout << "     \\   '   /" << endl;   
+  cout << "      (/---\\)" << endl << endl;   
   cout << "Dog:" <<  endl;
   cout << "     __" << endl;
   cout << "(___() '`;" << endl;
@@ -27,7 +49,95 @@ void Art::drawMenu(){
   cout << "Enter 3 to quit!" << endl << endl;
   cout << "Enter 4 to read the tutorial menu!" << endl << endl;
 
+}
+
+
+void Art::drawAlien() {
+
+    /*
+
+
+             @@@@@@@@@@
+          @@@          @@@
+       @@                  @@
+     @@                      @@
+     @@    @@@        @@@    @@
+     @@    @@@@@    @@@@@    @@
+     @@    @@@@@    @@@@@    @@
+     @@     @@@@    @@@@     @@
+       @@                  @@
+         @@     @@@@     @@
+           @@          @@
+             @@      @@
+               @@@@@@
+
+    Made by ELY M.
+
+    */
+
+
+    cout << "         @@@@@@@@@@" << endl;
+    cout << "      @@@          @@@" << endl;
+    cout << "   @@                  @@" << endl;
+    cout << " @@                      @@" << endl;
+    cout << " @@    @@@        @@@    @@" << endl;
+    cout << " @@    @@@@@    @@@@@    @@" << endl;
+    cout << " @@    @@@@@    @@@@@    @@" << endl;
+    cout << " @@     @@@@    @@@@     @@" << endl;
+    cout << "   @@                  @@" << endl;
+    cout << "     @@     @@@@     @@" << endl;
+    cout << "       @@          @@" << endl;
+    cout << "         @@      @@" << endl;
+    cout << "           @@@@@@" << endl << endl;
+}
+
+/*
+                
+    ,-._,-.    
+   (  o o  )  
+    `'\y/^'__ 
+     / , \//\\
+   _( ||| )_ '
+  '---'''---'
   
+       _   _
+      (,\_/,)
+       | " |   .-'
+       )\g/(  (  
+      /(   )\  ) 
+     |\)   (/|/  
+     \   '   /   
+      (/---\)    
+                 
+
+
+   
+yeah,  _   _
+right (,\_/,)
+    \  | " |   .-'
+       )\g/(  (       .----------.-----------.
+      /(   )\  )     /   .=====;..   .-.    //
+     |\)   (/|/     / .=//    ((()  |.o'\""//
+     \   '   /     /   //    ((()~~/_o_O("//
+  jgs (/---\)     /   '=====((()    """""//
+                 /___________'__________//
+                 `----------'----------'`
+------------------------------------------------
+Thank you for visiting https://asciiart.website/
+This ASCII pic can be found at
+https://asciiart.website/art/6001
+                 
+
+*/
+
+void Art::drawMouse(){
+    cout << "      (,\\_/ ,)" << endl;
+    cout << "       | \" |   .-'" << endl;
+    cout << "       )\\g/(  (" << endl;  
+    cout << "      /(   )\\  )" << endl; 
+    cout << "     |\\)   (/|/" << endl;  
+    cout << "     \\   '   /" << endl;   
+    cout << "      (/---\\)" << endl << endl;    
 }
 void Art::drawDog(){
  cout << "     __" << endl;

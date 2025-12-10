@@ -7,6 +7,8 @@ using namespace std;
 class Art{
 public:
 void drawMenu();
+void drawAlien();
+void drawMouse();
 void drawDog();
 void drawCat();
 void drawBunny();
