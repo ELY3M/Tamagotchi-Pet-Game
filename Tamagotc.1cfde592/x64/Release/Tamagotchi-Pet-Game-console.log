@@ -1,0 +1,27 @@
+﻿  Art.cpp
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(175,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(179,9): warning C4129: '|': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(180,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(199,10): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(215,11): warning C4129: '_': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(227,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(228,9): warning C4129: '_': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(228,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(229,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(230,9): warning C4129: '_': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(232,9): warning C4129: '_': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(233,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(234,9): warning C4129: '/': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(234,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(235,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(236,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(237,9): warning C4129: ' ': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(238,9): warning C4129: '_': unrecognized character escape sequence
+H:\dev\windev\Tamagotchi-Pet-Game\Art.cpp(239,9): warning C4129: '_': unrecognized character escape sequence
+  main.cpp
+  Manage.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 449 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Tamagotchi-Pet-Game-console.vcxproj -> H:\dev\windev\Tamagotchi-Pet-Game\x64\Release\Tamagotchi-Pet-Game-console.exe

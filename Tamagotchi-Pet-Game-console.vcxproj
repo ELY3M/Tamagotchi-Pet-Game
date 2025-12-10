@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Alien.h" />
     <ClInclude Include="Art.h" />
     <ClInclude Include="Bunny.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Dog.h" />
     <ClInclude Include="Manage.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="Pets.h" />
   </ItemGroup>
   <ItemGroup>
