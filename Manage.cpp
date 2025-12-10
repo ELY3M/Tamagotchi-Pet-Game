@@ -503,6 +503,8 @@ void Manage::save(Pets* animal){
   
   if(!fin.is_open()){
     cout << "File does not exist!" << endl;
+    ofstream writer("GAMEFILE.TXT");
+	writer.close();
   }
 
   string data;
